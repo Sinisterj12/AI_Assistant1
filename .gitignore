@@ -1,0 +1,9 @@
+# SECURITY - Protect your secrets!
+.env                # Hide your real passwords
+.env.*              # Hide all .env files
+!.env.example       # But DO show the example file
+
+# Python - Hide computer-generated files
+__pycache__/        # Hide Python cache folders
+*.pyc               # Hide Python compiled files
+.venv/              # Ignore virtual environment directory
